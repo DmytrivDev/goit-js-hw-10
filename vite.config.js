@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
     },
     root: 'src',
     build: {
-      sourcemap: true,
+      sourcemap: true, 
 
       rollupOptions: {
         input: glob.sync('./src/*.html'),
