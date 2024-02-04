@@ -8,7 +8,6 @@ const input = document.getElementById('datetime-picker');
 const btn = document.querySelector('.start-btn');
 let userSelectedDate;
 
-
 const options = {
   enableTime: true,
   time_24hr: true,
